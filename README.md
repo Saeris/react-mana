@@ -1,34 +1,6 @@
-<h1 style="
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 120px;
-  padding-top: 16px;
-  padding-right: 16px;
-  border-bottom: 2px solid #d8dac8;
-  background-color: #506250;
-  color: #f8fcf9;
-  font-size: 48px;
-  font-family: 'Beleren';
-  text-shadow: 1px 3px  #080c09;
-  @font-face {
-    font-family: 'Beleren';
-    src: url('/demo/public/beleren/BELEREN-BOLD.eot');
-    src:
-      url('/demo/public/beleren/BELEREN-BOLD.eot?#iefix') format('embedded-opentype'),
-      url('/demo/public/beleren/BELEREN-BOLD.ttf') format('ttf'),
-      url('/demo/public/beleren/BELEREN-BOLD.svg?Beleren-Bold') format('svg');
-  }
-">
-  <img src="/demo/public/favicon.svg" style="
-    width: 64px;
-    filter: invert(.96) hue-rotate(125deg) saturate(0.2) drop-shadow(1px 3px #080c09);
-    margin-right: 8px;
-    padding-top: 2px;
-  "/>
-  React Mana
-</h1>
+<p align="center">
+  <img alt="React Mana" src="/resources/header.png" style="max-width:100%;"/>
+</p>
 <p align="center">
   <a href="https://www.npmjs.org/package/@saeris/react-mana">
     <img src="https://img.shields.io/npm/v/@saeris/react-mana.svg?style=flat" alt="npm">
