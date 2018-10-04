@@ -36,7 +36,7 @@
     "start": "nwb serve-react-demo",
     "test": "yarn lint && jest",
     "test:watch": "jest --watch",
-    "coverage": "jest && codecov",
+    "test:coverage": "jest && codecov",
     "precommit": "lint-staged",
     "prepublish": "snyk protect",
     "prepublishOnly": "yarn test && yarn build --no-demo",
