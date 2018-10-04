@@ -1,6 +1,6 @@
 {
-  "name": "react-mana",
-  "version": "1.0.0",
+  "name": "@saeris/react-mana",
+  "version": "1.0.1",
   "description": "A simple React component wrapper around Mana Font",
   "keywords": [
     "react",
@@ -23,6 +23,7 @@
     "es",
     "lib",
     "src/*",
+    "resources",
     "*.json",
     "*.js",
     "*.mjs",
