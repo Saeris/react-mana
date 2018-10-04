@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "react-emotion"
 import FocusTrap from "focus-trap-react"
-import { Mana } from "../../src"
+import { Mana } from "@saeris/react-mana"
 
 const colors = {
   bg: `#f5f5f4`,
@@ -34,7 +34,7 @@ const colors = {
   radio: {
     active: `hsla(80, 2%, 98%, 1)`,
     main: `hsla(120, 18%, 50%, 1)`,
-    hover: `hsla(120, 20%, 36%, 1)`,
+    hover: `hsla(120, 20%, 36%, 1)`
   }
 }
 
@@ -568,7 +568,7 @@ const ToggleIcon = styled(`span`)`
       content: "";
       position: absolute;
       top: 0.11rem;
-      ${checked ? `right`: `left`}: 0.1rem;
+      ${checked ? `right` : `left`}: 0.1rem;
       display: block;
       width: 2.2rem;
       height: 2.2rem;
@@ -603,7 +603,7 @@ export const Toggle = ({ checked = false, children, ...props }) => (
   <ToggleWrapper>
     <span>
       <ToggleIcon checked={checked}>
-        <input type="checkbox" checked={checked} {...props}/>
+        <input type="checkbox" checked={checked} {...props} />
       </ToggleIcon>
       {children}
     </span>
