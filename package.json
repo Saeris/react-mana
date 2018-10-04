@@ -51,6 +51,7 @@
   },
   "devDependencies": {
     "@saeris/react-keyrune": "^1.0.1",
+    "@saeris/react-mana": "1.0.2",
     "babel-eslint": "^10.0.1",
     "babel-jest": "^23.6.0",
     "babel-preset-env": "^1.7.0",
