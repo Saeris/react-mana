@@ -1,38 +1,75 @@
 {
   "name": "react-mana",
   "version": "1.0.0",
-  "description": "react-mana React component",
+  "description": "A simple React component wrapper around Mana Font",
+  "keywords": [
+    "react",
+    "mana font",
+    "magic the gathering"
+  ],
+  "author": "Drake Costa <drake@saeris.io>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saeris/react-mana.git"
+  },
+  "bugs": {
+    "url": "https://github.com/saeris/react-mana/issues"
+  },
+  "homepage": "https://github.com/saeris/react-mana",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
-    "css",
     "es",
     "lib",
-    "umd"
+    "src/*",
+    "*.json",
+    "*.js",
+    "*.mjs",
+    "*.map"
   ],
   "scripts": {
     "build": "nwb build-react-component",
+    "lint": "eslint ./src",
     "clean": "nwb clean-module && nwb clean-demo",
-    "prepublishOnly": "npm run build",
     "start": "nwb serve-react-demo",
-    "test": "nwb test-react",
-    "test:coverage": "nwb test-react --coverage",
-    "test:watch": "nwb test-react --server"
+    "test": "yarn lint && jest",
+    "test:watch": "jest --watch",
+    "coverage": "jest && codecov",
+    "precommit": "lint-staged",
+    "prepublish": "snyk protect",
+    "prepublishOnly": "yarn test && yarn build --no-demo",
+    "release": "yarn publish --access public"
   },
-  "dependencies": {},
+  "dependencies": {
+    "classnames": "^2.2.6"
+  },
   "peerDependencies": {
-    "react": "16.x"
+    "react": "16.x",
+    "mana-font": "^1.4.1"
   },
   "devDependencies": {
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "emotion": "^9.2.12",
+    "favicons-webpack-plugin": "^0.0.9",
+    "focus-trap-react": "^4.0.1",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^23.6.0",
+    "mana-font": "^1.4.1",
     "nwb": "0.23.x",
+    "nwb-sass": "^0.9.0",
     "react": "^16.5.2",
-    "react-dom": "^16.5.2"
+    "react-dom": "^16.5.2",
+    "react-emotion": "^9.2.12",
+    "react-testing-library": "^5.1.1"
   },
-  "author": "",
-  "homepage": "",
-  "license": "MIT",
-  "repository": "",
-  "keywords": [
-    "react-component"
-  ]
+  "babel": {
+    "presets": ["env", "react"]
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "snyk": true
 }

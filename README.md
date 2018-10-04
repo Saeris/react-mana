@@ -1,16 +1,110 @@
-# react-mana
+<h1 style="
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 120px;
+  padding-top: 16px;
+  padding-right: 16px;
+  border-bottom: 2px solid #d8dac8;
+  background-color: #506250;
+  color: #f8fcf9;
+  font-size: 48px;
+  font-family: 'Beleren';
+  text-shadow: 1px 3px  #080c09;
+  @font-face {
+    font-family: 'Beleren';
+    src: url('/demo/public/beleren/BELEREN-BOLD.eot');
+    src:
+      url('/demo/public/beleren/BELEREN-BOLD.eot?#iefix') format('embedded-opentype'),
+      url('/demo/public/beleren/BELEREN-BOLD.ttf') format('ttf'),
+      url('/demo/public/beleren/BELEREN-BOLD.svg?Beleren-Bold') format('svg');
+  }
+">
+  <img src="/demo/public/favicon.svg" style="
+    width: 64px;
+    filter: invert(.96) hue-rotate(125deg) saturate(0.2) drop-shadow(1px 3px #080c09);
+    margin-right: 8px;
+    padding-top: 2px;
+  "/>
+  React Mana
+</h1>
+<p align="center">
+  <a href="https://www.npmjs.org/package/@saeris/react-mana">
+    <img src="https://img.shields.io/npm/v/@saeris/react-mana.svg?style=flat" alt="npm">
+  </a>
+  <a href="https://travis-ci.org/Saeris/react-mana">
+    <img src="https://travis-ci.org/Saeris/react-mana.svg?branch=master" alt="travis">
+  </a>
+  <a href="https://codecov.io/gh/Saeris/react-mana">
+    <img src="https://codecov.io/gh/Saeris/react-mana/branch/master/graph/badge.svg" alt="codecov"/>
+  </a>
+  <a href="https://snyk.io/test/github/Saeris/react-mana?targetFile=package.json">
+    <img src="https://snyk.io/test/github/Saeris/react-mana/badge.svg?targetFile=package.json" alt="Known Vulnerabilities">
+  </a>
+  <a href="https://greenkeeper.io/">
+    <img src="https://badges.greenkeeper.io/Saeris/react-mana.svg" alt="Known Vulnerabilities" alt="greenkeeper">
+  </a>
+</p>
+<p align="center">A simple React component wrapper around <a href="https://github.com/andrewgioia/Mana">Mana Font</a>.</p>
 
-[![Travis][build-badge]][build]
-[![npm package][npm-badge]][npm]
-[![Coveralls][coveralls-badge]][coveralls]
+---
 
-Describe react-mana here.
+## 🔧 Installation
 
-[build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
-[build]: https://travis-ci.org/user/repo
+```bash
+npm install --save graphql @saeris/react-mana mana-font
+# or
+yarn add graphql @saeris/react-mana mana-font
+```
 
-[npm-badge]: https://img.shields.io/npm/v/npm-package.png?style=flat-square
-[npm]: https://www.npmjs.org/package/npm-package
+> Note: [Mana Font](https://github.com/andrewgioia/Mana) is a required peer-dependency. This component will not work without it!
 
-[coveralls-badge]: https://img.shields.io/coveralls/user/repo/master.png?style=flat-square
-[coveralls]: https://coveralls.io/github/user/repo
+## 📦 Usage
+
+To use this component, simply import it and pass in some props:
+
+```jsx
+import React, { Component } from "react"
+import { render } from "react-dom"
+import { Mana } from "@saeris/react-mana"
+
+const App = () => (
+  <Mana symbol="g" shadow fixed size="2x"/>
+)
+
+render(<App />, document.getElementById("root"))
+```
+
+## 📋 Props
+
+Prop Name | Prop Type | Required | Default Value | Notes
+----------|:---------:|:--------:|:-------------:|:-----
+symbol    | `string`  | Yes      | None          | For a list of available symbols, please refer to either [Mana Font's documentation](https://andrewgioia.github.io/Mana/icons.html) or the [live demo site](https://react-mana.saeris.io)
+size      | `string`  | No       | None          | Possible Values: `2x`, `3x`, `4x`, `5x`, `6x`
+cost      | `boolean` | No       | `false`       | Used to toggle a background circle on the icon. The color will change based on the value of `symbol`
+shadow    | `boolean` | No       | `false`       | Used to toggle a drop-shadow and background. When set, `cost` will also be set to `true`
+half      | `boolean` | No       | `false`       | Used to toggle rendering [Unhinged  "half" mana symbols](https://mtg.gamepedia.com/Unhinged#Unhinged_mana_symbols)
+fixed     | `boolean` | No       | `false`       | Used to toggle fixed-width icons
+loyalty   | `number`  | No       | `null`        | When used with a Loyalty symbol, this controls the number displayed on top of the icon. Valid values are `0` to `20`
+
+
+## 🏖️ Demo
+
+You can either visit the [live demo site](https://react-mana.saeris.io), clone this repo and run the demo locally using `yarn start` and opening your browser to http://localhost:3000, or you can just play with it inside of CodeSandbox [here](https://codesandbox.io/s/github/Saeris/react-mana/tree/master/demo).
+
+The demo site includes a searchable list of all available symbols with a handy preview tool with which you can quickly see the effects of the available props along with generated markup you can copy and paste right into your own application!
+
+## 📣 Acknowledgements
+
+Special thanks to [Andrew Gioia](https://github.com/andrewgioia) the creator of [Mana Font](https://github.com/andrewgioia/Mana) and to all that project's awesome contributors, without whom this library wouldn't exist!
+
+And of course, a huge thanks to [Wizards of the Coast](http://magicthegathering.com) for creating this game we all love!
+
+## 🥂 License
+
+All card symbol images are copyright [Wizards of the Coast](http://magicthegathering.com).
+
+Mana Font is licensed under the the [SIL OFL 1.1 license](http://scripts.sil.org/OFL).
+
+Released under the [MIT license](https://github.com/Saeris/graphql-scalars/blob/master/LICENSE.md).
