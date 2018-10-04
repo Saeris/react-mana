@@ -45,28 +45,40 @@
     "classnames": "^2.2.6"
   },
   "peerDependencies": {
-    "react": "16.x",
-    "mana-font": "^1.4.1"
+    "mana-font": "^1.4.1",
+    "react": "16.x"
   },
   "devDependencies": {
+    "babel-eslint": "^10.0.1",
     "babel-jest": "^23.6.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
+    "codecov": "^3.1.0",
     "emotion": "^9.2.12",
+    "eslint": "^5.6.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^21.24.1",
+    "eslint-plugin-react": "^7.11.1",
     "favicons-webpack-plugin": "^0.0.9",
     "focus-trap-react": "^4.0.1",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^23.6.0",
+    "lint-staged": "^7.3.0",
     "mana-font": "^1.4.1",
     "nwb": "0.23.x",
     "nwb-sass": "^0.9.0",
+    "prettier": "^1.14.3",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-emotion": "^9.2.12",
-    "react-testing-library": "^5.1.1"
+    "react-testing-library": "^5.1.1",
+    "snyk": "^1.100.1"
   },
   "babel": {
-    "presets": ["env", "react"]
+    "presets": [
+      "env",
+      "react"
+    ]
   },
   "gitHooks": {
     "pre-commit": "lint-staged"
