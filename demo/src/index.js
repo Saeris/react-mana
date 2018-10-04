@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { render } from 'react-dom'
+import { Keyrune } from "@saeris/react-keyrune"
 import { Mana, symbols, icons, sizes } from '../../src'
 import { State } from "./state"
 import { Modal } from "./modal"

@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="React Mana" src="/resources/header.png" style="max-width:100%;"/>
+  <img alt="React Mana" src="https://raw.githubusercontent.com/Saeris/react-mana/master/resources/header.png" style="max-width:100%;"/>
 </p>
 <p align="center">
   <a href="https://www.npmjs.org/package/@saeris/react-mana">

@@ -4,4 +4,5 @@
 /lib
 /node_modules
 /umd
-npm-debug.log*
+npm-debug.log
+yarn-error.log

@@ -141,6 +141,12 @@
     memory-fs "^0.4.1"
     resolve "^1.2.0"
 
+"@saeris/react-keyrune@^1.0.1":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@saeris/react-keyrune/-/react-keyrune-1.0.3.tgz#f523cff56309c0cd399982870f843cf20b14acfa"
+  dependencies:
+    classnames "^2.2.6"
+
 "@samverschueren/stream-to-observable@^0.3.0":
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/@samverschueren/stream-to-observable/-/stream-to-observable-0.3.0.tgz#ecdf48d532c58ea477acfcab80348424f8d0662f"
@@ -1903,8 +1909,8 @@ camelcase@^4.1.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-4.1.0.tgz#d545635be1e33c542649c69173e5de6acfae34dd"
 
 caniuse-lite@^1.0.30000844, caniuse-lite@^1.0.30000865, caniuse-lite@^1.0.30000888:
-  version "1.0.30000888"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000888.tgz#22edb50d91dd70612b5898e3b36f460600c6492f"
+  version "1.0.30000889"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000889.tgz#53e266c83e725ad3bd2e4a3ea76d5031a8aa4c3e"
 
 capture-exit@^1.2.0:
   version "1.2.0"
@@ -5649,6 +5655,10 @@ karma@2.0.5:
 kew@^0.7.0:
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/kew/-/kew-0.7.0.tgz#79d93d2d33363d6fdd2970b335d9141ad591d79b"
+
+keyrune@^3.3.1:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/keyrune/-/keyrune-3.3.1.tgz#f0d84a32bb05d3ab1bf3984d560bdba057d0e028"
 
 killable@^1.0.0:
   version "1.0.1"
