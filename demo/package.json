@@ -1,0 +1,38 @@
+{
+  "name": "react-mana-demo",
+  "version": "1.0.0",
+  "description": "A simple React component wrapper around Mana Font",
+  "keywords": [
+    "react",
+    "mana font",
+    "magic the gathering"
+  ],
+  "author": "Drake Costa <drake@saeris.io>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saeris/react-mana.git"
+  },
+  "bugs": {
+    "url": "https://github.com/saeris/react-mana/issues"
+  },
+  "homepage": "https://github.com/saeris/react-mana",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@saeris/react-keyrune": "^1.0.1",
+    "emotion": "^9.2.12",
+    "focus-trap-react": "^4.0.1",
+    "keyrune": "^3.3.0",
+    "mana-font": "^1.4.1",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-emotion": "^9.2.12"
+  },
+  "devDependencies": {}
+}

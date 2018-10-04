@@ -142,8 +142,8 @@
     resolve "^1.2.0"
 
 "@saeris/react-keyrune@^1.0.1":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@saeris/react-keyrune/-/react-keyrune-1.0.3.tgz#f523cff56309c0cd399982870f843cf20b14acfa"
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@saeris/react-keyrune/-/react-keyrune-1.0.5.tgz#d7931db133a71878526b34ec859116c6fb5291f2"
   dependencies:
     classnames "^2.2.6"
 
