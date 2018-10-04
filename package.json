@@ -1,6 +1,6 @@
 {
   "name": "@saeris/react-mana",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple React component wrapper around Mana Font",
   "keywords": [
     "react",
@@ -50,6 +50,7 @@
     "react": "16.x"
   },
   "devDependencies": {
+    "@saeris/react-keyrune": "^1.0.1",
     "babel-eslint": "^10.0.1",
     "babel-jest": "^23.6.0",
     "babel-preset-env": "^1.7.0",
@@ -64,6 +65,7 @@
     "focus-trap-react": "^4.0.1",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^23.6.0",
+    "keyrune": "^3.3.1",
     "lint-staged": "^7.3.0",
     "mana-font": "^1.4.1",
     "nwb": "0.23.x",
