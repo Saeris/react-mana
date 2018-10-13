@@ -76,17 +76,19 @@ const App = () => (
       return (
         <Main>
           <Header>
-            <Title>
-              <a
-                href="https://www.github.com/saeris/react-mana"
-                title="React Mana on GitHub"
-                target="_blank"
-                rel="noopener"
-              >
-                <Mana fixed symbol="g" />
-                React Mana
-              </a>
-            </Title>
+            <div>
+              <Title>
+                <a
+                  href="https://www.github.com/saeris/react-mana"
+                  title="React Mana on GitHub"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <Mana fixed symbol="g" />
+                  React Mana
+                </a>
+              </Title>
+            </div>
           </Header>
           <Package>
             <Code>{`yarn add @saeris/react-mana mana-font`}</Code>

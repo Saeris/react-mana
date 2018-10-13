@@ -70,12 +70,20 @@ export const Header = styled(`header`)`
   width: 100%;
   padding: 2rem 5%;
   background-color: ${colors.header.bg};
+
+  > div {
+    display: flex;
+    flex: 1 1 auto;
+    width: 100%;
+    max-width: 128rem;
+  }
 `
 
 export const Title = styled(`h1`)`
   label: title;
-  flex: 1 1 auto;
-  max-width: 128rem;
+  display: inline-flex;
+  flex: 0 1 auto;
+  height: 6.5rem;
   padding: 0;
   margin: 0;
   color: ${colors.header.text};
@@ -84,8 +92,8 @@ export const Title = styled(`h1`)`
   user-select: none;
 
   a {
-    display: flex;
-    align-items: center;;
+    display: inline-flex;
+    align-items: center;
 
     i {
       margin-right: 1rem;
