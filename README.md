@@ -25,9 +25,9 @@
 ## 📦 Installation
 
 ```bash
-npm install --save graphql @saeris/react-mana mana-font
+npm install --save @saeris/react-mana mana-font
 # or
-yarn add graphql @saeris/react-mana mana-font
+yarn add @saeris/react-mana mana-font
 ```
 
 > Note: [Mana Font](https://github.com/andrewgioia/Mana) is a required peer-dependency. This component will not work without it!
