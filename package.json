@@ -47,7 +47,7 @@
   },
   "peerDependencies": {
     "mana-font": "^1.4.1",
-    "react": "16.x"
+    "react": "^16.6.3"
   },
   "devDependencies": {
     "@saeris/react-keyrune": "^1.0.1",
