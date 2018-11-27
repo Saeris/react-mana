@@ -74,7 +74,7 @@
     "prettier": "^1.14.3",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "react-emotion": "^9.2.12",
+    "react-emotion": "^10.0.0",
     "react-testing-library": "^5.1.1",
     "snyk": "^1.100.1"
   },
