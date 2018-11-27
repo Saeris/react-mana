@@ -147,6 +147,12 @@
   dependencies:
     classnames "^2.2.6"
 
+"@saeris/react-mana@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@saeris/react-mana/-/react-mana-1.0.2.tgz#acaae699d3f9fe10f3135122bf20e0fd109d95fb"
+  dependencies:
+    classnames "^2.2.6"
+
 "@samverschueren/stream-to-observable@^0.3.0":
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/@samverschueren/stream-to-observable/-/stream-to-observable-0.3.0.tgz#ecdf48d532c58ea477acfcab80348424f8d0662f"
@@ -3179,9 +3185,9 @@ eslint-plugin-import@^2.14.0:
     read-pkg-up "^2.0.0"
     resolve "^1.6.0"
 
-eslint-plugin-jest@^21.24.1:
-  version "21.24.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-21.24.1.tgz#aaf3c34e816f07add83d1e9c20696fdc31fac8dc"
+eslint-plugin-jest@^22.1.0:
+  version "22.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-22.1.0.tgz#9a4dfa3367563e8301560a7fb92ec309096dbca3"
 
 eslint-plugin-react@^7.11.1:
   version "7.11.1"
