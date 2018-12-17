@@ -147,6 +147,13 @@
   dependencies:
     classnames "^2.2.6"
 
+"@saeris/react-mana@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@saeris/react-mana/-/react-mana-1.0.2.tgz#acaae699d3f9fe10f3135122bf20e0fd109d95fb"
+  integrity sha512-44g3JdCZQ2AzEN5EuYcxrRyEY83On6FJ2ctwtmQAOQsZ5DwASIOvufOFwhVnNtL3ghQNsrOiL9mk7gDtamIObg==
+  dependencies:
+    classnames "^2.2.6"
+
 "@samverschueren/stream-to-observable@^0.3.0":
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/@samverschueren/stream-to-observable/-/stream-to-observable-0.3.0.tgz#ecdf48d532c58ea477acfcab80348424f8d0662f"
@@ -3751,9 +3758,10 @@ flush-write-stream@^1.0.0:
     inherits "^2.0.1"
     readable-stream "^2.0.4"
 
-focus-trap-react@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/focus-trap-react/-/focus-trap-react-4.0.1.tgz#3cffd39341df3b2f546a4a2fe94cfdea66154683"
+focus-trap-react@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/focus-trap-react/-/focus-trap-react-5.0.1.tgz#2459c632225ec7ff45a9a6abea320c38467d75e1"
+  integrity sha512-gDvYHKzUphCafOplHp3OQIz44WBge24yXculCkERLQplG53GyVOXvehYDW3rM4VAPGillsLUN8BlsKoRJAcoMA==
   dependencies:
     focus-trap "^3.0.0"
 
