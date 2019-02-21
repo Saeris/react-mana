@@ -31,7 +31,7 @@
     "focus-trap-react": "^4.0.1",
     "keyrune": "^3.3.0",
     "mana-font": "^1.4.1",
-    "react": "^16.5.2",
+    "react": "^16.8.3",
     "react-dom": "^16.5.2",
     "react-emotion": "^9.2.12"
   },
