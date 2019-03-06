@@ -73,7 +73,7 @@
     "nwb-sass": "^0.9.0",
     "prettier": "^1.14.3",
     "react": "^16.8.4",
-    "react-dom": "^16.5.2",
+    "react-dom": "^16.8.4",
     "react-emotion": "^9.2.12",
     "react-testing-library": "^5.1.1",
     "snyk": "^1.100.1"
