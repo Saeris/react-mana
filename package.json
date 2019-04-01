@@ -75,7 +75,7 @@
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-emotion": "^9.2.12",
-    "react-testing-library": "^5.1.1",
+    "react-testing-library": "^6.0.4",
     "snyk": "^1.100.1"
   },
   "babel": {
