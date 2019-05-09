@@ -57,7 +57,7 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "codecov": "^3.1.0",
-    "emotion": "^9.2.12",
+    "emotion": "^10.0.9",
     "eslint": "^5.6.1",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jest": "^21.24.1",
