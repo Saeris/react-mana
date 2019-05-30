@@ -147,6 +147,13 @@
   dependencies:
     classnames "^2.2.6"
 
+"@saeris/react-mana@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@saeris/react-mana/-/react-mana-1.0.2.tgz#acaae699d3f9fe10f3135122bf20e0fd109d95fb"
+  integrity sha512-44g3JdCZQ2AzEN5EuYcxrRyEY83On6FJ2ctwtmQAOQsZ5DwASIOvufOFwhVnNtL3ghQNsrOiL9mk7gDtamIObg==
+  dependencies:
+    classnames "^2.2.6"
+
 "@samverschueren/stream-to-observable@^0.3.0":
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/@samverschueren/stream-to-observable/-/stream-to-observable-0.3.0.tgz#ecdf48d532c58ea477acfcab80348424f8d0662f"
@@ -2843,14 +2850,6 @@ dom-serializer@0, dom-serializer@~0.1.0:
   dependencies:
     domelementtype "~1.1.1"
     entities "~1.1.1"
-
-dom-testing-library@^3.8.1:
-  version "3.8.1"
-  resolved "https://registry.yarnpkg.com/dom-testing-library/-/dom-testing-library-3.8.1.tgz#8607ef2e911f14f594028d14bc9f44fd32446078"
-  dependencies:
-    mutationobserver-shim "^0.3.2"
-    pretty-format "^23.6.0"
-    wait-for-expect "^1.0.0"
 
 dom-walk@^0.1.0:
   version "0.1.1"
@@ -6374,10 +6373,6 @@ multicast-dns@^6.0.1:
     dns-packet "^1.3.1"
     thunky "^1.0.2"
 
-mutationobserver-shim@^0.3.2:
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/mutationobserver-shim/-/mutationobserver-shim-0.3.2.tgz#f4d5dae7a4971a2207914fb5a90ebd514b65acca"
-
 mute-stream@0.0.7:
   version "0.0.7"
   resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.7.tgz#3075ce93bc21b8fab43e1bc4da7e8115ed1e7bab"
@@ -7698,12 +7693,10 @@ react-proxy@^1.1.7:
     lodash "^4.6.1"
     react-deep-force-update "^1.0.0"
 
-react-testing-library@^5.1.1:
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/react-testing-library/-/react-testing-library-5.1.1.tgz#7cdbad6d546894dadc39f499d65018135b7e61a0"
-  dependencies:
-    dom-testing-library "^3.8.1"
-    wait-for-expect "^1.0.0"
+react-testing-library@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/react-testing-library/-/react-testing-library-8.0.0.tgz#953fd821e5d9fabc1b80eba3a38707dd64ad2085"
+  integrity sha512-/Mn6jlPrWgQrqIocw1lQMp+RrLYHfL865slPI81hO7VDTwvDp58LZLDeF/Q4yvpBGvZ1WcKBUrflwjeVjUBD5Q==
 
 react-transform-catch-errors@1.0.2:
   version "1.0.2"
@@ -9652,10 +9645,6 @@ w3c-hr-time@^1.0.1:
   resolved "https://registry.yarnpkg.com/w3c-hr-time/-/w3c-hr-time-1.0.1.tgz#82ac2bff63d950ea9e3189a58a65625fedf19045"
   dependencies:
     browser-process-hrtime "^0.1.2"
-
-wait-for-expect@^1.0.0:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/wait-for-expect/-/wait-for-expect-1.0.1.tgz#73ab346ed56ed2ef66c380a59fd623755ceac0ce"
 
 walker@~1.0.5:
   version "1.0.7"
