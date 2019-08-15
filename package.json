@@ -62,7 +62,7 @@
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jest": "^21.24.1",
     "eslint-plugin-react": "^7.11.1",
-    "favicons-webpack-plugin": "^0.0.9",
+    "favicons-webpack-plugin": "^1.0.0",
     "focus-trap-react": "^4.0.1",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^23.6.0",
