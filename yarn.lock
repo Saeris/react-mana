@@ -147,6 +147,13 @@
   dependencies:
     classnames "^2.2.6"
 
+"@saeris/react-mana@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@saeris/react-mana/-/react-mana-1.0.2.tgz#acaae699d3f9fe10f3135122bf20e0fd109d95fb"
+  integrity sha512-44g3JdCZQ2AzEN5EuYcxrRyEY83On6FJ2ctwtmQAOQsZ5DwASIOvufOFwhVnNtL3ghQNsrOiL9mk7gDtamIObg==
+  dependencies:
+    classnames "^2.2.6"
+
 "@samverschueren/stream-to-observable@^0.3.0":
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/@samverschueren/stream-to-observable/-/stream-to-observable-0.3.0.tgz#ecdf48d532c58ea477acfcab80348424f8d0662f"
@@ -5656,9 +5663,10 @@ kew@^0.7.0:
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/kew/-/kew-0.7.0.tgz#79d93d2d33363d6fdd2970b335d9141ad591d79b"
 
-keyrune@^3.3.1:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/keyrune/-/keyrune-3.3.1.tgz#f0d84a32bb05d3ab1bf3984d560bdba057d0e028"
+keyrune@^3.6.2:
+  version "3.6.2"
+  resolved "https://registry.yarnpkg.com/keyrune/-/keyrune-3.6.2.tgz#554808919d2243c928ac9f8849ba9523640253b0"
+  integrity sha512-jPxV0wqZm0DgrxSpYgflOBr27WGcYfWSPevaPrgi+KYk9iw2R9k1+DtG1YBuFr0vEj6KbCOZlfF2ccdWURzkuA==
 
 killable@^1.0.0:
   version "1.0.1"
