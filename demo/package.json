@@ -32,7 +32,7 @@
     "keyrune": "^3.3.0",
     "mana-font": "^1.4.1",
     "react": "^16.13.0",
-    "react-dom": "^16.5.2",
+    "react-dom": "^16.13.0",
     "react-emotion": "^9.2.12"
   },
   "devDependencies": {}
