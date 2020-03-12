@@ -69,7 +69,7 @@
     "keyrune": "^3.3.1",
     "lint-staged": "^7.3.0",
     "mana-font": "^1.4.1",
-    "nwb": "0.23.x",
+    "nwb": "~0.24.2",
     "nwb-sass": "^0.9.0",
     "prettier": "^1.14.3",
     "react": "^16.5.2",
